@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>碳纤维复材铺层设计与仿真系统</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header id="top">
+  <div class="brand">碳纤维复材铺层设计与仿真系统</div>
+  <nav id="nav"></nav>
+  <div class="top-right">
+    <label class="cur-proj">当前工程&nbsp;<select id="curProject"></select></label>
+    <button id="btnReset" class="btn btn-warn" title="清空全部数据并重新生成示例">重置示例数据</button>
+  </div>
+</header>
+<main id="main"></main>
+<footer id="foot">铺层参数 → 仿真指纹 → 校验报告 全链路确定性联动 · 同一套铺层参数重复计算结果一致</footer>
+<div id="modalRoot"></div>
+<div id="toastRoot"></div>
+
+<script src="js/util.js"></script>
+<script src="js/clt.js"></script>
+<script src="js/geometry.js"></script>
+<script src="js/simengine.js"></script>
+<script src="js/store.js"></script>
+<script src="js/viewer3d.js"></script>
+<script src="js/charts.js"></script>
+<script src="js/p_projects.js"></script>
+<script src="js/p_materials.js"></script>
+<script src="js/p_molds.js"></script>
+<script src="js/p_layup.js"></script>
+<script src="js/p_sim.js"></script>
+<script src="js/p_opt.js"></script>
+<script src="js/p_workshop.js"></script>
+<script src="js/p_report.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
